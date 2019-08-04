@@ -1,0 +1,75 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>
+      Home
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-card class="welcome-card">
+      <img src="/assets/img/rajesh.jpg" class="profileimg" alt="" />
+      <ion-card-header>
+        <ion-card-title class="title">Rajesh Saha</ion-card-title>
+        <ion-card-subtitle class="subtitle" >Anjanadri complex Tulshi Theatre Road Opposite of south indian bank ATM,Marathalli</ion-card-subtitle>
+        <ion-card-subtitle class="subtitle" >EMAIL:nhcerajesh@gmail.com</ion-card-subtitle>
+        <ion-card-subtitle class="subtitle" >PHONE:9647707373</ion-card-subtitle>
+      </ion-card-header>
+      <ion-card-content>
+       <p>I’d like to express my interest in this role at your company. I appreciate you taking the time to consider my application. Currently I am learning NodeJS and Ionic. I posse adequate knowledge in MongoDB, REST APIs, MVC architecture. Also confident in HTML5, CSS3(SCSS), jQuery and Bootstrap. To add more I am familiarizing myself with AWS Heroku (Server setup). Awaiting for an opportunity to explore the skill sets that I am developing. At your disposal for any further query. Thanks &amp; Regards, Rajesh Saha</p> 
+      </ion-card-content>
+    </ion-card>
+     <!-- fab placed to the bottom and start and on the bottom edge of the content overlapping footer with a list to the right -->
+ <ion-fab class="sharebutton" vertical="bottom" horizontal="end" edge style="margin-bottom: 30px;position: fixed;">
+  <ion-fab-button>
+    <ion-icon name="share"></ion-icon>
+  </ion-fab-button>
+  <ion-fab-list side="start">
+    <a href="https://github.com/rajeshyo">
+    <ion-fab-button><ion-icon class="iconlabel" name="logo-github"></ion-icon></ion-fab-button>
+    </a>
+    <!-- <ion-fab-button><ion-icon class="iconlabel" name="mail"></ion-icon></ion-fab-button> -->
+    <a href="https://www.linkedin.com/in/rajesh-saha-102508168/">
+    <ion-fab-button><ion-icon class="iconlabel" name="logo-linkedin"></ion-icon></ion-fab-button>
+    </a>
+    <a href="https://www.facebook.com/rajesh.saha.3386">
+    <ion-fab-button><ion-icon class="iconlabel" name="logo-facebook"></ion-icon></ion-fab-button>
+    </a>
+  </ion-fab-list>
+</ion-fab>
+    <ion-list lines="none">
+      <ion-list-header>
+        <ion-label>Resources</ion-label>
+      </ion-list-header>
+      <!-- <a routerLink="/about" style="text-decoration:none">
+      <ion-item>
+        <ion-icon slot="start" color="medium" name="contact"></ion-icon>
+        <ion-label>About</ion-label>
+      </ion-item>
+      </a> -->
+      <a routerLink="/education" style="text-decoration:none">
+      <ion-item>
+        <ion-icon slot="start" color="medium" name="book"></ion-icon>
+        <ion-label>Education</ion-label>
+      </ion-item>
+      </a>
+      <a routerLink="/skills" style="text-decoration:none">
+      <ion-item >
+        <ion-icon slot="start" color="medium" name="cog"></ion-icon>
+        <ion-label>Skills</ion-label>
+      </ion-item>
+      </a>
+       <a routerLink="/awards" style="text-decoration:none">
+      <ion-item >
+        <ion-icon slot="start" color="medium" name="trophy"></ion-icon>
+        <ion-label>Awards</ion-label>
+      </ion-item>
+       </a>
+      <a href="https://www.datafilehost.com/d/388a9850" style="text-decoration:none">
+        <ion-item >
+            <ion-icon slot="start" color="medium" name="download"></ion-icon>
+            <ion-label>Resume</ion-label>
+          </ion-item>
+      </a>
+    </ion-list>
+</ion-content>
